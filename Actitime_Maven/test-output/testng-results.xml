@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Delete Task Test Running Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Edit Task Test Running Successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51" started-at="2020-07-17T08:52:15Z" finished-at="2020-07-17T08:52:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="51" started-at="2020-07-17T08:52:15Z" finished-at="2020-07-17T08:52:15Z">
+      <class name="tasksTests.EditTasksTest">
+        <test-method status="PASS" signature="runTask()[pri:0, instance:tasksTests.EditTasksTest@475530b9]" name="runTask" duration-ms="3" started-at="2020-07-17T14:22:15Z" finished-at="2020-07-17T14:22:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Edit Task Test Running Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runTask -->
+      </class> <!-- tasksTests.EditTasksTest -->
+      <class name="tasksTests.DeleteTasksTest">
+        <test-method status="PASS" signature="runTask()[pri:0, instance:tasksTests.DeleteTasksTest@cb5822]" name="runTask" duration-ms="14" started-at="2020-07-17T14:22:15Z" finished-at="2020-07-17T14:22:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Delete Task Test Running Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runTask -->
+      </class> <!-- tasksTests.DeleteTasksTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
